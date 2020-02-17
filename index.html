@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'/>
+    <script src="js/modernizr.js"></script>
+    <script src="js/Respond-master/src/respond.js"></script>
+    <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+    window.jQuery || document.write('<script type="text\/javascript" src="js\/1.7.2.jquery.min"><\/script>')
+    </script>
+    <script src="lightbox/src/js/lightbox.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+    <script src="js/Slides-SlidesJS-3/source/jquery.slides.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Cochala Turismo HTML5</h1>
+        <p>A responsive website tutorial</p>
+        <nav>
+            <ul>
+                <li><a href="javascript:void(0)">Home</a></li>
+                <li><a href="javascript:void(0)">Porfolio</a></li>
+                <li><a href="javascript:void(0)">About</a></li>
+                <li><a href="javascript:void(0)">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h2 class="hidden">Bienvenido</h2>
+        <article id="slider_content1">
+            <h3>Lorem ipsum dolor?</h3>
+            <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen Sie in Buchstabhausen an der Küste des Semantik.</p>
+            <a class="button" href="some_page.html">Mehr lesen</a>
+        </article>
+        <article id="slider_content2">
+            <h3>Nulla consequat</h3>
+            <p>Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen.</p>
+            <a class="button" href="some_page.html">Mehr lesen</a>
+        </article>
+        <article id="slider_content3">
+            <h3>Lorem ipsum</h3>
+            <p>Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
+            <a class="button" href="some_page.html">Mehr lesen</a>
+        </article>
+        <div id="slides">
+            <img src="images/cocha1.jpg" alt="Some alt text">
+            <img src="images/cocha2.jpg" alt="Some alt text">
+            <img src="images/cocha3.jpg" alt="Some alt text">
+        </div>
+    </section>
+
+    <section id="spacer">
+        <h2 class="hidden">Dolor sit amet</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit?</p>
+        <div class="search">
+            <form action="#">
+                <input type="text" name="sitesearch" value="Enter a word..."/>
+                <input type="submit" name="start_search" class="button" value="Search"/>
+            </form>
+        </div>
+    </section>
+
+    <section id="boxcontent">
+        <h2 class="hidden">Adipiscing</h2>
+        <article>
+            <img src="img/some_icon.png" alt="alt text"/>
+            <h3>Lorem ipsum</h3>
+            <p>
+            Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen.</p>
+        </article>
+        <article>
+            <h3>Consectetuer</h3>
+            <img src="img/some_icon.png" alt="alt text"/>
+            <p>
+            Der große Oxmox riet ihr davon ab, da es dort wimmele von bösen Kommata, wilden Fragezeichen...</p>
+        </article>
+        <article>
+            <img src="img/some_icon.png" alt="alt text"/>
+            <h3>Dolor sit amet</h3>
+            <p>
+            Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg.</p>
+        </article>
+        <br class="clear"/>
+    </section>
+
+    <section id="four_columns">
+        <h2>Lorem ipsum</h2>
+        <article class="img-item">
+            <h3 class="hidden">Dolor sit amet</h3>
+            <figure>
+                <a href="img/example-slide-1.jpg" rel="lightbox" title="Some Title">
+                <span class="thumb-screen"></span>
+                <img src="img/example-slide-1sml.jpg" alt="Some alt text"/></a>
+                <figcaption>
+                    <strong>
+                    Photo by: Some Name</strong>
+                    Als es die ersten Hügel des Kursivgebirges erklommen hatte
+                </figcaption>
+            </figure>
+        </article>
+        <article class="img-item">
+            <h3 class="hidden">Sit Amet</h3>
+            <figure>
+                <a href="img/example-slide-2.jpg" rel="lightbox" title="Some Title">
+                <span class="thumb-screen"></span>
+                <img src="img/example-slide-2sml.jpg" alt="Some alt text"/></a>
+                <figcaption>
+                    <strong>
+                    Photo by: Some Name</strong>
+                    warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen
+                </figcaption>
+            </figure>
+        </article>
+        <article class="img-item">
+            <h3 class="hidden">Dolor Sit</h3>
+            <figure>
+                <a href="img/example-slide-3.jpg" rel="lightbox" title="Some Title">
+                <span class="thumb-screen"></span>
+                <img src="img/example-slide-3sml.jpg" alt="Some alt text"/></a>
+                <figcaption>
+                    <strong>
+                    Photo by: Some Name</strong>
+                    die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
+                </figcaption>
+            </figure>
+        </article>
+        <article class="img-item">
+            <h3 class="hidden">Lorem Ipsum</h3>
+            <figure>
+                <a href="img/example-slide-4.jpg" rel="lightbox" title="Some Title">
+                <span class="thumb-screen"></span>
+                <img src="img/example-slide-4sml.jpg" alt="Some alt text"/></a>
+                <figcaption>
+                    <strong>
+                    Photo by: Some Name</strong>
+                    Wehmütig lief ihm eine rhetorische Frage über die Wange.
+                </figcaption>
+            </figure>
+        </article>
+        <br class="clear"/>
+    </section>
+</body>
+</html>
