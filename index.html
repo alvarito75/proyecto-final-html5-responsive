@@ -20,14 +20,17 @@
     <script src="js/prefixfree.min.js"></script>
     <script src="js/jquery.slides.min.js"></script>
     <script src="js/Slides-SlidesJS-3/source/jquery.slides.min.js"></script>
+
 </head>
 
 <body>
     <header>
         <h1>Cochala Turismo HTML5</h1>
         <p>A responsive website tutorial</p>
+
         <nav>
-            <ul>
+            <ul class="navigation">
+                <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
                 <li><a href="javascript:void(0)">Lugares al aire libre</a></li>
                 <li><a href="javascript:void(0)">Lugares historicos de Bolivia</a></li>
                 <li><a href="javascript:void(0)">Museos</a></li>
@@ -35,32 +38,6 @@
             </ul>
         </nav>
     </header>
-
-    <section class="container">
-        <!-- <h2 class="hidden">Bienvenido</h2>
-        <article id="slider_content1">
-            <h3>Lorem ipsum dolor?</h3>
-            <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen Sie in Buchstabhausen an der Küste des Semantik.</p>
-            <a class="button" href="some_page.html">Mehr lesen</a>
-        </article>
-        <article id="slider_content2">
-            <h3>Nulla consequat</h3>
-            <p>Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen.</p>
-            <a class="button" href="some_page.html">Mehr lesen</a>
-        </article>
-        <article id="slider_content3">
-            <h3>Lorem ipsum</h3>
-            <p>Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
-            <a class="button" href="some_page.html">Mehr lesen</a>
-        </article>-->
-
-        <div class="slides">
-            <img src="images/cocha1.jpg" alt="algo">
-            <img src="images/cocha2.jpg" alt="algo">
-            <img src="images/cocha3.jpg" alt="algo">
-        </div>
-
-    </section>
 
     <section id="spacer">
         <h2 class="hidden">Dolor sit amet</h2>
@@ -70,6 +47,8 @@
                 <input type="text" name="sitesearch" value="Enter a word..." />
                 <input type="submit" name="start_search" class="button" value="Search" />
             </form>
+            <p>Date/Time:</p>
+            <p id="datetime"></p>
         </div>
     </section>
     <article>
@@ -88,10 +67,11 @@
     </section>
     <br>
     <br>
+    <div class="title">
+        <h1>COCHABAMBA</h1>
+    </div>
     <section class="three_columns">
         <article class="img-item">
-            <h1>COCHABAMBA</h1>
-
             <figure>
                 <a href="images/turismo/images (2).jfif" rel="lightbox" title="Some Title" width="300" height="200">
                     <span class="thumb-screen"></span>
@@ -1712,6 +1692,7 @@
             </article>
         </section>
     </footer>
+    <script src="js/custom.js"></script> 
 </body>
 
 </html>

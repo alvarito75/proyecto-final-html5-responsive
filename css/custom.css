@@ -3,6 +3,10 @@ header {
   margin: auto;
   
 }
+nav {
+  padding: 5px;
+  background-color: gray;
+}
 
 nav ul{
   display: inline-flex;
@@ -35,9 +39,13 @@ nav ul li a:hover{
   margin: auto;
 }
 
+#spacer {
+  text-align: center;
+}
+
 .slides {
   display: flex;
-
+  flex-wrap: wrap;
 }
 
 
@@ -46,11 +54,18 @@ nav ul li a:hover{
   
     margin: 1.5%;
 }
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
 .img-item{
   width: 30%;
   
-    margin: 0.5%;
-    overflow:hidden;
+  margin: 0.5%;
+  overflow:hidden;
+  text-align: center;
 }
 .img-item img{
   
@@ -99,5 +114,131 @@ nav ul li a:hover{
  
 
   display: flex;
+  flex-wrap: wrap;
+}
 
+
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: transparent !important;
+  }
+  
+  .container .slides img{
+    width: 100%;
+
+  }
+
+  .three_columns {
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .three_columns .img-item {
+    width: 100%;
+    text-align: center;
+  }
+
+  ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+  li:hover {
+    background-color: gray;
+  }
+  ul li a:hover {
+    background-color: #ddd !important;
+    color: black;
+  }
+}
+
+
+nav {
+	margin: 0 auto;
+  background-color: #000;
+  text-align: center;
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+  display: none;
+  min-height: 57px;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
+}
+/***************GALLERY***************/
+h2 {
+    margin: 25px 0 0 25px;
+    font-size: 1.5rem;
+}
+
+.container{
+    margin:25px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.container img{
+    max-width: 100%;
+    margin:0 auto;
+    padding: 0;
+}
+
+figcaption{
+    padding: 4px;
+}
+
+figure {
+    margin: 0;
+}
+
+.item:hover {
+   /* box-shadow: 0 0 50px #333;*/
+}
+
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+	display: block;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 768px) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+    flex: 1 1 100%;
+	}
+	.navigation li a {
+    color: yellow;
+    min-height: 33px;
+	}
 }
