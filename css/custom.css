@@ -1,6 +1,7 @@
 header {
   width: 80%;
   margin: auto;
+  
 }
 
 nav ul{
@@ -11,11 +12,12 @@ nav ul{
 nav ul li{
   text-align: center;
   text-decoration: none;
-  border-bottom: 1px solid #555;
+  
+  border-bottom: 1px dashed #555;
 }
 nav ul li a{
   display: block;
-  width: 60px;
+  width: 180px;
 
   color: white;
   text-align: center;
@@ -28,28 +30,50 @@ nav ul li a:hover{
 }
 
 .container {
-  background-color: #89ceef40;
+  background-color: #4f5b6140;
   width: 80%;
   margin: auto;
 }
 
-.container #slides {
+.slides {
   display: flex;
+
 }
 
-.container #slides  img {
+
+.slides img  {
   width: 30%;
+  
     margin: 1.5%;
 }
+.img-item{
+  width: 30%;
+  
+    margin: 0.5%;
+    overflow:hidden;
+}
+.img-item img{
+  
+  
+  border-radius: 10px;
+}
+.img-item img:hover{
+  border-radius: 10%;
+  -webkit-border-radius:10%;
+  box-shadow: 3px 3px 3px 3px #000000;
+-webkit-box-shadow: 3px 3px 3px 3px #000000;
+}
+
+
 
 #spacer {
-  background-color: #89ceef40;
+  background-color: #4f5b6140;
   width: 80%;
   margin: auto;
 }
 
 #boxcontent {
-  background-color: #89ceef40;
+  background-color: #4f5b6140;
   width: 80%;
   margin: auto;
   display: flex;
@@ -66,10 +90,14 @@ nav ul li a:hover{
   margin: 1.5%;
 }
 
-#four_columns {
-  background-color: #89ceef40;
+.three_columns {
+  background-color: #4f5b6140;
   width: 80%;
   margin: auto;
+  
+  padding-left: 20px;
+ 
 
   display: flex;
+
 }
