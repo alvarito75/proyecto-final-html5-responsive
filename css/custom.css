@@ -177,6 +177,25 @@ nav ul li a:hover{
     background-color: #ddd !important;
     color: black;
   }
+
+  #map {
+    display: none;
+  }
+
+  .main-content {
+    width: 90%;
+    float: left;
+    overflow-y: unset !important;
+    height: auto;
+    overflow: auto;
+    margin: auto;
+    margin: 5%;
+  }
+  
+  .main-content .three_columns {
+    width: 100%;
+  }
+
 }
 
 
@@ -265,7 +284,7 @@ figure {
 	.navigation li a {
     color: yellow;
     min-height: 33px;
-	}
+  }
 }
 
 /* Map*/
