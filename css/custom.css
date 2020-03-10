@@ -209,6 +209,16 @@ nav ul li a:hover{
   flex-wrap: wrap;
 }
 
+.contacto {
+  width: 100%;
+  height: auto;
+}
+
+.contacto #container {
+  width: 20%;
+  margin: auto;
+}
+
 @media screen and (max-width: 768px) {
 
   header {
@@ -278,7 +288,7 @@ nav ul li a:hover{
   }
 
   #spacer {
-    bottom: 10px;
+    display: none;
   }
 
 }
@@ -297,6 +307,10 @@ nav ul li a:hover{
   .three_columns .img-item {
     width: 100%;
     text-align: center;
+  }
+
+  #spacer {
+    display: none;
   }
 }
 
