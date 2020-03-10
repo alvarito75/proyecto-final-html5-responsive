@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css' />
+    <script src="js/modernizr.js"></script>
+    <script src="js/Respond-master/src/respond.js"></script>
+    <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+        window.jQuery || document.write('<script type="text\/javascript" src="js\/1.7.2.jquery.min"><\/script>')
+    </script>
+    <script src="lightbox/src/js/lightbox.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+    <script src="js/Slides-SlidesJS-3/source/jquery.slides.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>`</h1>
+        <h2>Lugares Turisticos - Bolivia</h2>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+                <li><a href="index.html">Lugares al aire libre</a></li>
+                <li><a href="historia.html">Lugares historicos de Bolivia</a></li>
+                <li><a href="museos.html">Museos</a></li>
+                <li><a href="javascript:void(0)">Informacion de los creadores</a></li>
+            </ul>
+        </nav>
+        <picture class="flag">
+
+            <a href="#ben">
+                <h3>Beni</h3>
+                <img src="images/banderas/flag beni.gif" rel="lightbox" title="Bandera de Beni" width="70"
+                    height="35"></a>
+            <a href="#cocha">
+                <h3>Cochabamba</h3>
+                <img src="images/banderas/flag cochabamba.gif" rel="lightbox" title="Bandera de Cochabamba" width="70"
+                    height="35"></a>
+            <a href="#chu">
+                <h3>Chuquisaca</h3>
+                <img src="images/banderas/flag chuquisaca.gif" rel="lightbox" title="Bandera de Chuquisaca" width="70"
+                    height="35"></a>
+            <a href="#lap">
+                <h3>La Paz</h3>
+                <img src="images/banderas/flag la paz.gif" rel="lightbox" title="Bandera de La Paz" width="70"
+                    height="35"></a>
+            <a href="#oru">
+                <h3>Oruro</h3>
+                <img src="images/banderas/flag oruro.gif" rel="lightbox" title="Bandera de Oruro" width="70"
+                    height="35"></a>
+            <a href="#pan">
+                <h3>Pando</h3>
+                <img src="images/banderas/flag pando.gif" rel="lightbox" title="Bandera de Pando" width="70"
+                    height="35"></a>
+            <a href="#pot">
+                <h3>Potosi</h3>
+                <img src="images/banderas/flag potosi.gif" rel="lightbox" title="Bandera de Potosi" width="70"
+                    height="35"></a>
+            <a href="#san">
+                <h3>Santa Cruz</h3>
+                <img src="images/banderas/flag santa cruz.gif" rel="lightbox" title="Bandera de Santa Cruz" width="70"
+                    height="35"></a>
+            <a href="#tar">
+                <h3>Tarija</h3>
+                <img src="images/banderas/flag tarija.gif" rel="lightbox" title="Bandera de Tarija" width="70"
+                    height="35"></a>
+        </picture>
+        <section id="spacer">
+            <h2 >Buscador</h2>
+            
+            <div class="search">
+                <form action="#">
+                    <input type="text" name="sitesearch" value="Enter a word..." />
+                    <input type="submit" name="start_search" class="button" value="Search" />
+                </form>
+                <p>Fecha y Hora:</p>
+                <p id="datetime"></p>
+            </div>
+        </section>
+    </header>
+    <!-- Main content-->
+    <div class="main-content">
+        
+        <div class="title">
+            <h1 id="ben">Beni</h1>
+        </div>
+        <section class="three_columns">
+            <article class="img-item">
+                <a href="https://www.gifmania.com/Gif-Animados-Web/Imagenes-Rotulos-Webs/Rotulos-Proximamente/" target="_blank"><img src="https://www.gifmania.com/Gif-Animados-Web/Imagenes-Rotulos-Webs/Rotulos-Proximamente/Coming-Soon-Negro-89775.gif" alt="rótulos proximamente - GIFMANIA" /></a>
+    
+            </article>
+    
+    
+            <br class="clear" />
+        </section>
+        <div class="title">
+            <h1 id="cocha">Cochabamba</h1>
+        </div>
+        <section class="three_columns">
+            <article class="img-item">
+                <figure>
+                    <a href="images/turismo/cristo de la concordia.jfif"   rel="lightbox" title="Some Title">
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/cristo de la concordia.jfif" alt="Some alt text" width="300" height="200" /></a>
+                    <h2 class="hidden">Cristo de la concordia</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/catedral metropolitana de san sebastian arquidiocesis de cochabamba.jpg" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/catedral metropolitana de san sebastian arquidiocesis de cochabamba.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Catedral Metropolitana de San Sebastián Arquidiócesis</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/incallajta.jpg" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/incallajta.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Incallajta</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                    </figcaption>
+                </figure>
+            </article>
+    
+        </section>
+    
+        <section class="three_columns">
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/plaza colon.jfif" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/plaza colon.jfif" alt="Some alt text" width="300" height="200" /></a>
+                    <h2 class="hidden">Plaza Colon</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/tropico de cochabamba.jpg" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/tropico de cochabamba.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Tropico de Cochabamba</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                    </figcaption>
+                </figure>
+            </article>
+            
+        </section>
+    
+        <div class="title">
+            <h1 id="chu">Chuquisaca</h1>
+        </div>  
+    
+        <section class="three_columns">
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/parque cretacico.jfif" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/parque cretacico.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Parque Cretacico</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        Als es die ersten Hügel des Kursivgebirges erklommen hatte
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/castillo de la glorieta.jpg" rel="lightbox" title="Some Title">
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/castillo de la glorieta.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Castillo de la Glorieta</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/catedral basilica de nuestra senora de guadalupe.jpg" rel="lightbox"
+                        title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/catedral basilica de nuestra senora de guadalupe.jpg" alt="Some alt text"
+                            width="300" height="200" /></a>
+                    <h2 class="hidden">Catedral Basilica de Nuestra Senora de Guadalupe</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
+                    </figcaption>
+                </figure>
+            </article>
+    
+            <br class="clear" />
+        </section>
+        <div class="title">
+            <h1 id="lap">La Paz</h1>
+        </div>
+        <section class="three_columns">
+            <article class="img-item">
+                
+                <figure>
+                    <a href="images/turismo/Basilica de san francisco.jfif" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/Basilica de san francisco.jfif" alt="Some alt text" width="300" height="200" /></a>
+                    <h2 class="hidden">Basilica de San Francisco</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        Als es die ersten Hügel des Kursivgebirges erklommen hatte
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/museo nacional de arqueologia.JPG" rel="lightbox" title="Some Title">
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/museo nacional de arqueologia.JPG" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Museo Nacional de Arqueologia</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/Tiwanaku.jpg" rel="lightbox" title="Some Title" width="300" height="200">
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/Tiwanaku.jpg" alt="Some alt text" width="300" height="200" /></a>
+                    <h2 class="hidden">Tiwanaku</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
+                    </figcaption>
+                </figure>
+            </article>
+    
+            <br class="clear" />
+        </section>
+    
+        <section class="three_columns">
+            <article class="img-item">
+                <figure>
+                    <a href="images/turismo/isla pariti.JPG" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/isla pariti.JPG" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Isla Pariti</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        Als es die ersten Hügel des Kursivgebirges erklommen hatte
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/lago titica.jfif" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/lago titica.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Lago Titica</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/Puma punku.jpg" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/Puma punku.jpg" alt="Some alt text" width="300" height="200" /></a>
+                    <h2 class="hidden">Puma Punku</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
+                    </figcaption>
+                </figure>
+            </article>
+    
+            <br class="clear" />
+        </section>
+    
+    
+        <section class="three_columns">
+            <article class="img-item">
+                <figure>
+                    <a href="images/turismo/Isla de la luna.jfif" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/Isla de la luna.jfif" alt="Some alt text" width="300" height="200" /></a>
+                    <h2 class="hidden">Isla de la Luna</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        Als es die ersten Hügel des Kursivgebirges erklommen hatte
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/basilica de nuestra senora de copacabana.jfif" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/basilica de nuestra senora de copacabana.jfif" alt="Some alt text" width="300" height="200" /></a>
+                    <h2 class="hidden">Basilica de Nuestra Senora de Copacabana</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/piramide de akapana.jfif" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/piramide de akapana.jfif" alt="Some alt text" width="300" height="200" /></a>
+                    <h2 class="hidden">Piramide de Akapana</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
+                    </figcaption>
+                </figure>
+            </article>
+    
+            <br class="clear" />
+        </section>
+    
+        <div class="title">
+            <h1 id="oru">Oruro</h1>
+        </div>
+        
+        <section class="three_columns">
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/monumento a la virgen candelaria.jpg" rel="lightbox" title="Some Title"
+                        width="300" height="200">
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/monumento a la virgen candelaria.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Monumento a la Virgen Candelaria</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen
+                    </figcaption>
+                </figure>
+            </article>
+    
+    
+            <br class="clear" />
+        </section>
+        <div class="title">
+            <h1 id="pot">Potosi</h1>
+        </div>
+        <section class="three_columns">
+            <article class="img-item">
+                
+                <figure>
+                    <a href="images/turismo/Sala de uyuni.jpg" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/Sala de uyuni.jpg" alt="Some alt text" width="300" height="200" /></a>
+                    <h2 class="hidden">Salar De Uyuni</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        Als es die ersten Hügel des Kursivgebirges erklommen hatte
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/Arbol de piedra.jfif" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/Arbol de piedra.jfif" alt="Some alt text" width="300" height="200" /></a>
+                    <h2 class="hidden">Arbol de Piedra</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/desierto salvador dali.jfif" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/desierto salvador dali.jfif" alt="Some alt text" width="300" height="200" /></a>
+                    <h2 class="hidden">Desierto Salvador Dali</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
+                    </figcaption>
+                </figure>
+            </article>
+    
+            <br class="clear" />
+        </section>
+    
+       
+        <div class="title">
+            <h1 id="pan">Pando</h1>
+        </div>
+        <section class="three_columns">
+            <article class="img-item">
+                <a href="https://www.gifmania.com/Gif-Animados-Web/Imagenes-Rotulos-Webs/Rotulos-Proximamente/" target="_blank"><img src="https://www.gifmania.com/Gif-Animados-Web/Imagenes-Rotulos-Webs/Rotulos-Proximamente/Coming-Soon-Negro-89775.gif" alt="rótulos proximamente - GIFMANIA" /></a>
+    
+            </article>
+    
+    
+            <br class="clear" />
+        </section>
+        <div class="title">
+            <h1 id="san">Santa Cruz</h1>
+        </div>
+        <section class="three_columns">
+            <article class="img-item">
+                
+                <figure>
+                    <a href="images/turismo/el fuerte de samaipata.jfif" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/el fuerte de samaipata.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">El Fuerte de Samaipata</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        Als es die ersten Hügel des Kursivgebirges erklommen hatte
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/parque ecologico yvaga guazu.jpg" rel="lightbox" title="Some Title">
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/parque ecologico yvaga guazu.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Parque Ecologico Yvaga Guazu</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/biocentro guembe.jpg" rel="lightbox" title="Some Title">
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/biocentro guembe.jpg" alt="Some alt text"
+                            width="300" height="200" /></a>
+                    <h2 class="hidden">Biocentro Guembe</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
+                    </figcaption>
+                </figure>
+            </article>
+    
+            <br class="clear" />
+        </section>
+    
+        <section class="three_columns">
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/avion pirata.jpg" rel="lightbox" title="Some Title">
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/avion pirata.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Avion Pirata</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        Als es die ersten Hügel des Kursivgebirges erklommen hatte
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/santa cruz la vieja.jpg" rel="lightbox" title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/santa cruz la vieja.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Santa Cruz La Vieja</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+    
+                <figure>
+                    <a href="images/turismo/catedral basilica de san lorenzo.jpg" rel="lightbox" title="Some Title">
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/catedral basilica de san lorenzo.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Catedral Basilica de San Lorenzo</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
+                    </figcaption>
+                </figure>
+            </article>
+    
+            <br class="clear" />
+        </section>
+    
+       
+    
+       
+        <div class="title">
+            <h1 id="tar">Tarija</h1>
+        </div>
+        <section class="three_columns">
+            <article class="img-item">
+                
+                <figure>
+                    <a href="images/turismo/museo nacional paleontologico arqueologico.jpg" rel="lightbox"
+                        title="Some Title" >
+                        <span class="thumb-screen"></span>
+                        <img src="images/turismo/museo nacional paleontologico arqueologico.jpg" alt="Some alt text"
+                            width="300" height="200" /></a>
+                    <h2 class="hidden">Museo Nacional Paleontologico Arqueologico</h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        Als es die ersten Hügel des Kursivgebirges erklommen hatte
+                    </figcaption>
+                </figure>
+    
+            </article>
+    
+    
+            <br class="clear" />
+        </section>
+    </div>
+
+    <!-- Sidebar right-->
+    <div class="sidebar-right">
+        <div id="map"> </div>
+    </div>
+    
+    <!-- aqui termina las imagenes de lugares al aire libre-->
+    <footer class="footer">
+        
+    </footer>
+    <script src="js/custom.js"></script>
+   
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNWZnhouFnMhAjs285wglDQWC-643KtT8&callback=initMap"
+        type="text/javascript">
+    </script>
+    <script>
+
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: -17.391838, lng: -66.314972 },
+                zoom: 5,
+            });
+
+            var requestURL = 'https://alvarito75.github.io/bolivia-tourismo/bolivia.json';
+            var request = new XMLHttpRequest();
+            request.open('GET', requestURL);
+            request.responseType = 'json';
+            request.send();
+            request.onload = function () {
+                var superHeroes = request.response;
+                console.log(superHeroes);
+
+                for (var i = 0; i < superHeroes.length; i++) {
+                    var marker = new google.maps.Marker({
+                        position: { 
+                            lat: parseInt(superHeroes[i].lat), 
+                            lng: parseInt(superHeroes[i].lng) 
+                        },
+                        map: map,
+                        title: superHeroes[i].name
+                    });
+                }
+            }
+            
+
+           
+        }
+        
+        
+    </script>
+</body>
+
+</html>

@@ -29,6 +29,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font: 400 14px/18px 'Google Sans',Roboto,Arial,sans-serif;
+  
 }
 ol, ul {
 	list-style: none;

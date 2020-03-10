@@ -25,51 +25,101 @@
 
 <body>
     <header>
-        <h1>Cochala Turismo HTML5</h1>
-        <p>A responsive website tutorial</p>
+        <h1>`</h1>
+        <h2>Lugares Turisticos - Bolivia</h2>
 
         <nav>
             <ul class="navigation">
                 <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
-                <li><a href="#test">Lugares al aire libre</a></li>
-                <li><a href="javascript:void(0)">Lugares historicos de Bolivia</a></li>
-                <li><a href="javascript:void(0)">Museos</a></li>
+                <li><a href="index.html">Lugares al aire libre</a></li>
+                <li><a href="historia.html">Lugares historicos de Bolivia</a></li>
+                <li><a href="museos.html">Museos</a></li>
                 <li><a href="javascript:void(0)">Informacion de los creadores</a></li>
+
+
             </ul>
+
         </nav>
-    </header>
+        <picture class="flag">
 
-    <section id="spacer">
-        <h2 class="hidden">Dolor sit amet</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit?</p>
-        <div class="search">
-            <form action="#">
-                <input type="text" name="sitesearch" value="Enter a word..." />
-                <input type="submit" name="start_search" class="button" value="Search" />
-            </form>
-            <p>Date/Time:</p>
-            <p id="datetime"></p>
-        </div>
-    </section>
-    
+            <a href="#ben">
+                <h3>Beni</h3>
+                <img src="images/banderas/flag beni.gif" rel="lightbox" title="Bandera de Beni" width="70"
+                    height="35"></a>
+            <a href="#cocha">
+                <h3>Cochabamba</h3>
+                <img src="images/banderas/flag cochabamba.gif" rel="lightbox" title="Bandera de Cochabamba" width="70"
+                    height="35"></a>
+            <a href="#chu">
+                <h3>Chuquisaca</h3>
+                <img src="images/banderas/flag chuquisaca.gif" rel="lightbox" title="Bandera de Chuquisaca" width="70"
+                    height="35"></a>
+            <a href="#lap">
+                <h3>La Paz</h3>
+                <img src="images/banderas/flag la paz.gif" rel="lightbox" title="Bandera de La Paz" width="70"
+                    height="35"></a>
+            <a href="#oru">
+                <h3>Oruro</h3>
+                <img src="images/banderas/flag oruro.gif" rel="lightbox" title="Bandera de Oruro" width="70"
+                    height="35"></a>
+            <a href="#pan">
+                <h3>Pando</h3>
+                <img src="images/banderas/flag pando.gif" rel="lightbox" title="Bandera de Pando" width="70"
+                    height="35"></a>
+            <a href="#pot">
+                <h3>Potosi</h3>
+                <img src="images/banderas/flag potosi.gif" rel="lightbox" title="Bandera de Potosi" width="70"
+                    height="35"></a>
+            <a href="#san">
+                <h3>Santa Cruz</h3>
+                <img src="images/banderas/flag santa cruz.gif" rel="lightbox" title="Bandera de Santa Cruz" width="70"
+                    height="35"></a>
+            <a href="#tar">
+                <h3>Tarija</h3>
+                <img src="images/banderas/flag tarija.gif" rel="lightbox" title="Bandera de Tarija" width="70"
+                    height="35"></a>
+        </picture>
+        <section id="spacer">
+            <h2>Buscador</h2>
 
-    <!-- Main content-->
-    <div class="main-content">
-        <section class="three_columns">
-            <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem culpa quisquam, magni dolore repellat sed nam alias officia doloribus! Omnis consequatur mollitia necessitatibus sunt nihil sit illum aspernatur modi consequuntur.</p>
+            <div class="search">
+                <form action="#">
+                    <input type="text" name="sitesearch" value="Enter a word..." />
+                    <input type="submit" name="start_search" class="button" value="Search" />
+                </form>
+                <p>Fecha y Hora:</p>
+                <p id="datetime"></p>
             </div>
         </section>
+    </header>
+    <!-- Main content-->
+    <div class="main-content">
 
         <div class="title">
-            <h1>COCHABAMBA</h1>
+            <h1 id="ben">Beni</h1>
+        </div>
+        <section class="three_columns">
+            <article class="img-item">
+                <a href="https://www.gifmania.com/Gif-Animados-Web/Imagenes-Rotulos-Webs/Rotulos-Proximamente/"
+                    target="_blank"><img
+                        src="https://www.gifmania.com/Gif-Animados-Web/Imagenes-Rotulos-Webs/Rotulos-Proximamente/Coming-Soon-Negro-89775.gif"
+                        alt="rótulos proximamente - GIFMANIA" /></a>
+
+            </article>
+
+
+            <br class="clear" />
+        </section>
+        <div class="title">
+            <h1 id="cocha">Cochabamba</h1>
         </div>
         <section class="three_columns">
             <article class="img-item">
                 <figure>
-                    <a href="images/turismo/images (2).jfif" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/cristo de la concordia.jfif" rel="lightbox" title="Cristo de la Concordia">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/images (2).jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/cristo de la concordia.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Cristo de la concordia</h2>
                     <figcaption>
                         <strong>
@@ -78,7 +128,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/parque nacional tunari.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -93,7 +143,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/parque nacional carrasco.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -107,12 +157,12 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/incallajta.jpg" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -125,7 +175,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/palacio de portales.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -140,10 +190,10 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/museo convento santa teresa.jpg" rel="lightbox" title="Some Title" width="300"
-                        height="200">
+                    <a href="images/turismo/museo convento santa teresa.jpg" rel="lightbox" title="Some Title"
+                        width="300" height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/museo convento santa teresa.jpg" alt="Some alt text" width="300"
                             height="200" /></a>
@@ -154,13 +204,13 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
         </section>
-    
+
         <section class="three_columns">
-    
+
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/plaza 14 de septiembre.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -176,7 +226,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/laguna la angostura.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -192,7 +242,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/parque de la familia.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -207,21 +257,22 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <div class="title">
-            <h1>CHUQUISACA</h1>
-        </div>  
+            <h1 id="chu">Chuquisaca</h1>
+        </div>
         <section class="three_columns">
-    
-            <article class="img-item">                    
+
+            <article class="img-item">
                 <figure>
                     <a href="images/turismo/parque cretacico.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/parque cretacico.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/parque cretacico.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Parque Cretacico</h2>
                     <figcaption>
                         <strong>
@@ -231,7 +282,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/casa de la libertad.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -247,10 +298,10 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/Museo nacional de etnografia y folklore.jpg" rel="lightbox" title="Some Title"
-                        width="300" height="200">
+                    <a href="images/turismo/Museo nacional de etnografia y folklore.jpg" rel="lightbox"
+                        title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/Museo nacional de etnografia y folklore.jpg" alt="Some alt text"
                             width="300" height="200" /></a>
@@ -262,13 +313,13 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/parque simon bolivar.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -284,7 +335,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/parque nacional isiboro secure.jpg" rel="lightbox" title="Some Title"
                         width="300" height="200">
@@ -300,13 +351,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/catedral basilica de nuestra senora de guadalupe.jpg" rel="lightbox"
                         title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/catedral basilica de nuestra senora de guadalupe.jpg" alt="Some alt text"
-                            width="300" height="200" /></a>
+                        <img src="images/turismo/catedral basilica de nuestra senora de guadalupe.jpg"
+                            alt="Some alt text" width="300" height="200" /></a>
                     <h2 class="hidden">Catedral Basilica de Nuestra Senora de Guadalupe</h2>
                     <figcaption>
                         <strong>
@@ -315,15 +366,18 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+        <div class="title">
+            <h1 id="lap">La Paz</h1>
+        </div>
         <section class="three_columns">
             <article class="img-item">
-                <h1>LA PAZ</h1>
+
                 <figure>
-                    <a href="images/turismo/Isla del sol.jpg" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/Isla del sol.jpg" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/Isla del sol.jpg" alt="Some alt text" width="300" height="200" /></a>
                     <h2 class="hidden">Isla Del Sol</h2>
@@ -335,7 +389,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Camino de los yungas.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -351,7 +405,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Tiwanaku.jpg" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -364,10 +418,10 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
                 <figure>
@@ -385,7 +439,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Mercado de las brujas.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -401,9 +455,10 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/Huayna Potosi.jfif" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/Huayna Potosi.jfif" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/Huayna Potosi.jfif" alt="Some alt text" width="300" height="200" /></a>
                     <h2 class="hidden">Huayna Potosi</h2>
@@ -414,17 +469,18 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns" id="test">
             <article class="img-item">
                 <figure>
                     <a href="images/turismo/Valle de la luna.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Valle de la luna.jpg" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/Valle de la luna.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Valle De La Luna</h2>
                     <figcaption>
                         <strong>
@@ -434,7 +490,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Illimani.jfif" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -448,28 +504,30 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/Puerta del sol.jfif" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/Puerta del sol.jfif" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Puerta del sol.jfif" alt="Some alt text" width="300" height="200" /></a>
-                    <h2 class="hidden">Puerta Del Sol/h2>
-                        <figcaption>
-                            <strong>
-                                Photo by: Some Name</strong>
-                            die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
-                        </figcaption>
+                        <img src="images/turismo/Puerta del sol.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
+                    <h2 class="hidden">Puerta Del Sol </h2>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name</strong>
+                        die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
+                    </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
-    
-    
+
+
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Chacaltaya.jfif" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -483,7 +541,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Puma punku.jpg" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -497,12 +555,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Isla de la luna.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Isla de la luna.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/Isla de la luna.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Isla De La Luna</h2>
                     <figcaption>
                         <strong>
@@ -511,14 +570,15 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
                 <figure>
-                    <a href="images/turismo/Plaza murillo.jpg" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/Plaza murillo.jpg" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/Plaza murillo.jpg" alt="Some alt text" width="300" height="200" /></a>
                     <h2 class="hidden">Plaza Murillo</h2>
@@ -530,7 +590,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Condoriri.jfif" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -544,12 +604,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Volcan Parinacota.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Volcan Parinacota.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/Volcan Parinacota.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Volcan Parinacota</h2>
                     <figcaption>
                         <strong>
@@ -558,16 +619,16 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/Basilica de san francisco.jfif" rel="lightbox" title="Some Title" width="300"
-                        height="200">
+                    <a href="images/turismo/Basilica de san francisco.jfif" rel="lightbox" title="Some Title"
+                        width="300" height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/Basilica de san francisco.jfif" alt="Some alt text" width="300"
                             height="200" /></a>
@@ -580,7 +641,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Illampu.jpg" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -594,7 +655,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/kalasasaya.jfif" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -607,10 +668,10 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
                 <figure>
@@ -626,7 +687,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/estrecho de tiquina.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -642,10 +703,10 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/cerro el calvario copacabana.jfif" rel="lightbox" title="Some Title" width="300"
-                        height="200">
+                    <a href="images/turismo/cerro el calvario copacabana.jfif" rel="lightbox" title="Some Title"
+                        width="300" height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/cerro el calvario copacabana.jfif" alt="Some alt text" width="300"
                             height="200" /></a>
@@ -657,20 +718,21 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
-    
-    
+
+
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/museo de la coca.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/museo de la coca.jpg" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/museo de la coca.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Museo De La Coca</h2>
                     <figcaption>
                         <strong>
@@ -680,12 +742,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Muela del diablo.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Muela del diablo.jpg" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/Muela del diablo.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Muela Del Diablo</h2>
                     <figcaption>
                         <strong>
@@ -695,7 +758,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/mirador de killi killi.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -710,16 +773,16 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/basilica de nuestra senora de copacabana.jfif" rel="lightbox" title="Some Title"
-                        width="300" height="200">
+                    <a href="images/turismo/basilica de nuestra senora de copacabana.jfif" rel="lightbox"
+                        title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/basilica de nuestra senora de copacabana.jfif" alt="Some alt text"
                             width="300" height="200" /></a>
@@ -732,7 +795,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/sagarnaga.jfif" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -746,7 +809,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/ancohuma.jfif" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -759,18 +822,19 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/pequeno alpamayo.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/pequeno alpamayo.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/pequeno alpamayo.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Pequeno Alpamayo</h2>
                     <figcaption>
                         <strong>
@@ -780,7 +844,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/piramide de akapana.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -796,11 +860,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/Laguna glaciar.jfif" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/Laguna glaciar.jfif" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Laguna glaciar.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/Laguna glaciar.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Laguna Glaciar</h2>
                     <figcaption>
                         <strong>
@@ -809,13 +875,13 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/carcel de san pedro.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -831,7 +897,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/valle de las animas.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -847,11 +913,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/Monolito ponce.jfif" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/Monolito ponce.jfif" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Monolito ponce.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/Monolito ponce.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Monolito Ponce</h2>
                     <figcaption>
                         <strong>
@@ -860,10 +928,10 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
                 <figure>
@@ -882,9 +950,11 @@
             </article>
             <article class="img-item">
                 <figure>
-                    <a href="images/turismo/cerro mururata.jfif" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/cerro mururata.jfif" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/cerro mururata.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/cerro mururata.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Cerro Mururata</h2>
                     <figcaption>
                         <strong>
@@ -894,7 +964,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/chinkana.jfif" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -907,16 +977,16 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/plaza mayor de san francisco.jpg" rel="lightbox" title="Some Title" width="300"
-                        height="200">
+                    <a href="images/turismo/plaza mayor de san francisco.jpg" rel="lightbox" title="Some Title"
+                        width="300" height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/plaza mayor de san francisco.jpg" alt="Some alt text" width="300"
                             height="200" /></a>
@@ -929,7 +999,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Chiyar quta.jpg" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -942,18 +1012,21 @@
                     </figcaption>
                 </figure>
             </article>
-    
-    
+
+
             <br class="clear" />
         </section>
-    
+        <div class="title">
+            <h1 id="oru">Oruro</h1>
+        </div>
         <section class="three_columns">
-    
-    
+
+
             <article class="img-item">
-                <h1>ORURO</h1>
+
                 <figure>
-                    <a href="images/turismo/Volcan tunupa.jfif" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/Volcan tunupa.jfif" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/Volcan tunupa.jfif" alt="Some alt text" width="300" height="200" /></a>
                     <h2 class="hidden">Volcan Tunupa</h2>
@@ -965,7 +1038,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/cementerio de trenes.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -981,12 +1054,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/nevado de sajama.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/nevado de sajama.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/nevado de sajama.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Nevado De Sajama</h2>
                     <figcaption>
                         <strong>
@@ -995,18 +1069,19 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/salar de coipasa.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/salar de coipasa.jpg" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/salar de coipasa.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Salar De Coipasa</h2>
                     <figcaption>
                         <strong>
@@ -1016,7 +1091,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/monumento a la virgen candelaria.jpg" rel="lightbox" title="Some Title"
                         width="300" height="200">
@@ -1031,16 +1106,19 @@
                     </figcaption>
                 </figure>
             </article>
-    
-    
+
+
             <br class="clear" />
         </section>
-    
+        <div class="title">
+            <h1 id="pot">Potosi</h1>
+        </div>
         <section class="three_columns">
             <article class="img-item">
-                <hi>POTOSI</hi>
+
                 <figure>
-                    <a href="images/turismo/Sala de uyuni.jpg" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/Sala de uyuni.jpg" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/Sala de uyuni.jpg" alt="Some alt text" width="300" height="200" /></a>
                     <h2 class="hidden">Salar De Uyuni</h2>
@@ -1052,12 +1130,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Laguna colorada.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Laguna colorada.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/Laguna colorada.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Laguna Colorada</h2>
                     <figcaption>
                         <strong>
@@ -1067,9 +1146,10 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/Laguna verde.jpg" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/Laguna verde.jpg" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/Laguna verde.jpg" alt="Some alt text" width="300" height="200" /></a>
                     <h2 class="hidden">Laguna Verde</h2>
@@ -1080,17 +1160,19 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/Isla incahuasi.jfif" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/Isla incahuasi.jfif" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Isla incahuasi.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/Isla incahuasi.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Isla Incahuasi</h2>
                     <figcaption>
                         <strong>
@@ -1100,13 +1182,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Reserva nacional de fauna andina eduardo abaroa.jfif" rel="lightbox"
                         title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Reserva nacional de fauna andina eduardo abaroa.jfif" alt="Some alt text"
-                            width="300" height="200" /></a>
+                        <img src="images/turismo/Reserva nacional de fauna andina eduardo abaroa.jfif"
+                            alt="Some alt text" width="300" height="200" /></a>
                     <h2 class="hidden">Reserva Nacional de Fauna Andina Eduardo Abaroa</h2>
                     <figcaption>
                         <strong>
@@ -1116,9 +1198,10 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/Sol de manana.jfif" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/Sol de manana.jfif" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/Sol de manana.jfif" alt="Some alt text" width="300" height="200" /></a>
                     <h2 class="hidden">Sol De Manana</h2>
@@ -1129,18 +1212,19 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Arbol de piedra.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Arbol de piedra.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/Arbol de piedra.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Arbol De Piedra</h2>
                     <figcaption>
                         <strong>
@@ -1150,12 +1234,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Laguna hedionda.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Laguna hedionda.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/Laguna hedionda.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Laguna Hedionda</h2>
                     <figcaption>
                         <strong>
@@ -1165,10 +1250,10 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/Parque nacional toro toro.jfif" rel="lightbox" title="Some Title" width="300"
-                        height="200">
+                    <a href="images/turismo/Parque nacional toro toro.jfif" rel="lightbox" title="Some Title"
+                        width="300" height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/Parque nacional toro toro.jfif" alt="Some alt text" width="300"
                             height="200" /></a>
@@ -1180,18 +1265,19 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Isla del pescado.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Isla del pescado.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/Isla del pescado.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Isla Del Pescado</h2>
                     <figcaption>
                         <strong>
@@ -1201,9 +1287,10 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/laguna blanca.jfif" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/laguna blanca.jfif" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/laguna blanca.jfif" alt="Some alt text" width="300" height="200" /></a>
                     <h2 class="hidden">Laguna Blanca</h2>
@@ -1215,7 +1302,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/desierto salvador dali.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -1230,15 +1317,16 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/laguna canapa.jfif" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/laguna canapa.jfif" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/laguna canapa.jfif" alt="Some alt text" width="300" height="200" /></a>
                     <h2 class="hidden">Laguna Canapa</h2>
@@ -1250,7 +1338,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/cerro rico de potosi.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -1266,12 +1354,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/termas de polques.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/termas de polques.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/termas de polques.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Termas de Polques</h2>
                     <figcaption>
                         <strong>
@@ -1280,18 +1369,19 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/salar de chiguana.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/salar de chiguana.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/salar de chiguana.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Salar De Chiguana</h2>
                     <figcaption>
                         <strong>
@@ -1301,12 +1391,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/salar de chalviri.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/salar de chalviri.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/salar de chalviri.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Salar De Chalviri</h2>
                     <figcaption>
                         <strong>
@@ -1316,7 +1407,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/uturuncu.jfif" rel="lightbox" title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
@@ -1329,18 +1420,19 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/volcan licancabur.jfif" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/volcan licancabur.jfif" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/volcan licancabur.jfif" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Volcan Licancabur</h2>
                     <figcaption>
                         <strong>
@@ -1349,24 +1441,31 @@
                     </figcaption>
                 </figure>
             </article>
-    
-    
+
+
             <br class="clear" />
         </section>
-    
+        <div class="title">
+            <h1 id="pan">Pando</h1>
+        </div>
         <section class="three_columns">
             <article class="img-item">
-                <h1>PANDO</h1>
-    
+                <a href="https://www.gifmania.com/Gif-Animados-Web/Imagenes-Rotulos-Webs/Rotulos-Proximamente/"
+                    target="_blank"><img
+                        src="https://www.gifmania.com/Gif-Animados-Web/Imagenes-Rotulos-Webs/Rotulos-Proximamente/Coming-Soon-Negro-89775.gif"
+                        alt="rótulos proximamente - GIFMANIA" /></a>
+
             </article>
-    
-    
+
+
             <br class="clear" />
         </section>
-    
+        <div class="title">
+            <h1 id="san">Santa Cruz</h1>
+        </div>
         <section class="three_columns">
             <article class="img-item">
-                <h1>SANTA CRUZ</h1>
+
                 <figure>
                     <a href="images/turismo/Parque nacional amboro.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -1382,13 +1481,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/Parque nacional noel kempff mercado.jpg" rel="lightbox" title="Some Title"
                         width="300" height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/Parque nacional noel kempff mercado.jpg" alt="Some alt text" width="300"
-                            height="200" /></a>
+                        <img src="images/turismo/Parque nacional noel kempff mercado.jpg" alt="Some alt text"
+                            width="300" height="200" /></a>
                     <h2 class="hidden">Parque Nacional Noel Kempff mercado</h2>
                     <figcaption>
                         <strong>
@@ -1398,10 +1497,10 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/parque nacional y area natural de manejo.jpg" rel="lightbox" title="Some Title"
-                        width="300" height="200">
+                    <a href="images/turismo/parque nacional y area natural de manejo.jpg" rel="lightbox"
+                        title="Some Title" width="300" height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/parque nacional y area natural de manejo.jpg" alt="Some alt text"
                             width="300" height="200" /></a>
@@ -1413,13 +1512,13 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/parque regional lomas de arena.jfif" rel="lightbox" title="Some Title"
                         width="300" height="200">
@@ -1435,7 +1534,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/plaza de 24 de septiembre.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
@@ -1451,7 +1550,7 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/catedral basilica de san lorenzo.jpg" rel="lightbox" title="Some Title"
                         width="300" height="200">
@@ -1466,13 +1565,13 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/jardin botanico municipal de santa cruz de la sierra.jpg" rel="lightbox"
                         title="Some Title" width="300" height="200">
@@ -1488,9 +1587,10 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
-                    <a href="images/turismo/parque arenal.jfif" rel="lightbox" title="Some Title" width="300" height="200">
+                    <a href="images/turismo/parque arenal.jfif" rel="lightbox" title="Some Title" width="300"
+                        height="200">
                         <span class="thumb-screen"></span>
                         <img src="images/turismo/parque arenal.jfif" alt="Some alt text" width="300" height="200" /></a>
                     <h2 class="hidden">Parque Arenal</h2>
@@ -1502,12 +1602,13 @@
                 </figure>
             </article>
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/biocentro guembe.jpg" rel="lightbox" title="Some Title" width="300"
                         height="200">
                         <span class="thumb-screen"></span>
-                        <img src="images/turismo/biocentro guembe.jpg" alt="Some alt text" width="300" height="200" /></a>
+                        <img src="images/turismo/biocentro guembe.jpg" alt="Some alt text" width="300"
+                            height="200" /></a>
                     <h2 class="hidden">Biocentro Guembe</h2>
                     <figcaption>
                         <strong>
@@ -1516,13 +1617,13 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
             <br class="clear" />
         </section>
-    
+
         <section class="three_columns">
             <article class="img-item">
-    
+
                 <figure>
                     <a href="images/turismo/zoologico municipal de fauna sudamericana noel kempff mercado.jpg"
                         rel="lightbox" title="Some Title" width="300" height="200">
@@ -1537,14 +1638,16 @@
                     </figcaption>
                 </figure>
             </article>
-    
-    
+
+
             <br class="clear" />
         </section>
-    
+        <div class="title">
+            <h1 id="tar">Tarija</h1>
+        </div>
         <section class="three_columns">
             <article class="img-item">
-                <h1>TARIJA</h1>
+
                 <figure>
                     <a href="images/turismo/reserva nacional de flora y fauna de tariquia.jpg" rel="lightbox"
                         title="Some Title" width="300" height="200">
@@ -1558,10 +1661,10 @@
                         Als es die ersten Hügel des Kursivgebirges erklommen hatte
                     </figcaption>
                 </figure>
-    
+
             </article>
-    
-    
+
+
             <br class="clear" />
         </section>
     </div>
@@ -1570,222 +1673,17 @@
     <div class="sidebar-right">
         <div id="map"> </div>
     </div>
-    
+
     <!-- aqui termina las imagenes de lugares al aire libre-->
     <footer class="footer">
-        <section id="spacer">
-            <h2 class="hidden">Dolor sit amet</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit?</p>
-            <div class="search">
-                <form action="#">
-                    <input type="text" name="sitesearch" value="Enter a word..." />
-                    <input type="submit" name="start_search" class="button" value="Search" />
-                </form>
-                <p>Date/Time:</p>
-                <p id="datetime"></p>
-            </div>
-        </section>
+
     </footer>
     <script src="js/custom.js"></script>
-    <script id="test" type="application/json">
-            {
-                "country": "AD",
-                "name": "Sant Julià de Lòria",
-                "lat": "42.46372",
-                "lng": "1.49129"
-            },
-            {
-                "country": "AD",
-                "name": "Pas de la Casa",
-                "lat": "42.54277",
-                "lng": "1.73361"
-            },
-            {
-                "country": "AD",
-                "name": "Ordino",
-                "lat": "42.55623",
-                "lng": "1.53319"
-            },
-            {
-                "country": "AD",
-                "name": "les Escaldes",
-                "lat": "42.50729",
-                "lng": "1.53414"
-            },
-            {
-                "country": "AD",
-                "name": "la Massana",
-                "lat": "42.54499",
-                "lng": "1.51483"
-            },
-            {
-                "country": "AD",
-                "name": "Encamp",
-                "lat": "42.53474",
-                "lng": "1.58014"
-            },
-            {
-                "country": "AD",
-                "name": "Canillo",
-                "lat": "42.5676",
-                "lng": "1.59756"
-            },
-            {
-                "country": "AD",
-                "name": "Arinsal",
-                "lat": "42.57205",
-                "lng": "1.48453"
-            },
-            {
-                "country": "AD",
-                "name": "Andorra la Vella",
-                "lat": "42.50779",
-                "lng": "1.52109"
-            },
-            {
-                "country": "AE",
-                "name": "Umm al Qaywayn",
-                "lat": "25.56473",
-                "lng": "55.55517"
-            },
-            {
-                "country": "AE",
-                "name": "Ras al-Khaimah",
-                "lat": "25.78953",
-                "lng": "55.9432"
-            },
-            {
-                "country": "AE",
-                "name": "Muzayri‘",
-                "lat": "23.14355",
-                "lng": "53.7881"
-            },
-            {
-                "country": "AE",
-                "name": "Murbaḩ",
-                "lat": "25.27623",
-                "lng": "56.36256"
-            },
-            {
-                "country": "AE",
-                "name": "Khawr Fakkān",
-                "lat": "25.33132",
-                "lng": "56.34199"
-            },
-            {
-                "country": "AE",
-                "name": "Dubai",
-                "lat": "25.0657",
-                "lng": "55.17128"
-            },
-            {
-                "country": "AE",
-                "name": "Dibba Al-Fujairah",
-                "lat": "25.59246",
-                "lng": "56.26176"
-            },
-            {
-                "country": "AE",
-                "name": "Dibba Al-Hisn",
-                "lat": "25.61955",
-                "lng": "56.27291"
-            },
-            {
-                "country": "AE",
-                "name": "Sharjah",
-                "lat": "25.33737",
-                "lng": "55.41206"
-            },
-            {
-                "country": "AE",
-                "name": "Ar Ruways",
-                "lat": "24.11028",
-                "lng": "52.73056"
-            },
-            {
-                "country": "AE",
-                "name": "Al Fujayrah",
-                "lat": "25.11641",
-                "lng": "56.34141"
-            },
-            {
-                "country": "AE",
-                "name": "Al Ain",
-                "lat": "24.19167",
-                "lng": "55.76056"
-            },
-            {
-                "country": "AE",
-                "name": "Ajman",
-                "lat": "25.41111",
-                "lng": "55.43504"
-            },
-            {
-                "country": "AE",
-                "name": "Adh Dhayd",
-                "lat": "25.28812",
-                "lng": "55.88157"
-            },
-            {
-                "country": "AE",
-                "name": "Abu Dhabi",
-                "lat": "24.46667",
-                "lng": "54.36667"
-            },
-            {
-                "country": "AF",
-                "name": "Zorkot",
-                "lat": "33.54149",
-                "lng": "69.73446"
-            },
-            {
-                "country": "AF",
-                "name": "Wulêswālī Bihsūd",
-                "lat": "34.3436",
-                "lng": "67.90567"
-            },
-            {
-                "country": "AF",
-                "name": "Kuhsān",
-                "lat": "34.65389",
-                "lng": "61.19778"
-            },
-            {
-                "country": "AF",
-                "name": "Lāsh",
-                "lat": "35.3782",
-                "lng": "64.77457"
-            },
-            {
-                "country": "AF",
-                "name": "Tukzār",
-                "lat": "35.94831",
-                "lng": "66.42132"
-            },
-            {
-                "country": "AF",
-                "name": "Mīray",
-                "lat": "33.32462",
-                "lng": "68.44068"
-            },
-            {
-                "country": "AF",
-                "name": "Āq Kupruk",
-                "lat": "36.08352",
-                "lng": "66.84029"
-            },
-            {
-                "country": "AF",
-                "name": "Zurmat",
-                "lat": "33.43778",
-                "lng": "69.02774"
-            }
 
-    </script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNWZnhouFnMhAjs285wglDQWC-643KtT8&callback=initMap"
         type="text/javascript">
-    </script>
+        </script>
     <script>
 
         var map;
@@ -1806,37 +1704,21 @@
 
                 for (var i = 0; i < superHeroes.length; i++) {
                     var marker = new google.maps.Marker({
-                        position: { 
-                            lat: parseInt(superHeroes[i].lat), 
-                            lng: parseInt(superHeroes[i].lng) 
+                        position: {
+                            lat: parseInt(superHeroes[i].lat),
+                            lng: parseInt(superHeroes[i].lng)
                         },
                         map: map,
                         title: superHeroes[i].name
                     });
                 }
             }
-            
 
-            var marker1 = new google.maps.Marker({
-                position: { 
-                    lat: -17.391838, 
-                    lng: -66.314972 
-                },
-                map: map,
-                title: 'Acuario de Gijón'
-            });
 
-            var marker = new google.maps.Marker({
-                position: { 
-                    lat: -15.391838, 
-                    lng: -66.314972 
-                },
-                map: map,
-                title: 'Acuario de Gijón'
-            });
+
         }
-        
-        
+
+
     </script>
 </body>
 
