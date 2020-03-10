@@ -479,17 +479,17 @@
             request.responseType = 'json';
             request.send();
             request.onload = function () {
-                var superHeroes = request.response;
-                console.log(superHeroes);
+                var museos = request.response;
+                console.log(museos);
 
-                for (var i = 0; i < superHeroes.length; i++) {
+                for (var i = 0; i < museos.length; i++) {
                     var marker = new google.maps.Marker({
                         position: {
-                            lat: parseInt(superHeroes[i].lat),
-                            lng: parseInt(superHeroes[i].lng)
+                            lat: parseInt(museos[i].lat),
+                            lng: parseInt(museos[i].lng)
                         },
                         map: map,
-                        title: superHeroes[i].name
+                        title: museos[i].name
                     });
                 }
             }

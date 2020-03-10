@@ -629,17 +629,17 @@
             request.responseType = 'json';
             request.send();
             request.onload = function () {
-                var superHeroes = request.response;
-                console.log(superHeroes);
+                var historia = request.response;
+                console.log(historia);
 
-                for (var i = 0; i < superHeroes.length; i++) {
+                for (var i = 0; i < historia.length; i++) {
                     var marker = new google.maps.Marker({
                         position: { 
-                            lat: parseInt(superHeroes[i].lat), 
-                            lng: parseInt(superHeroes[i].lng) 
+                            lat: parseInt(historia[i].lat), 
+                            lng: parseInt(historia[i].lng) 
                         },
                         map: map,
-                        title: superHeroes[i].name
+                        title: historia[i].name
                     });
                 }
             }
