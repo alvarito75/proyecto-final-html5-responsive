@@ -1696,6 +1696,7 @@
                 console.log(superHeroes);
 
                 for (var i = 0; i < superHeroes.length; i++) {
+                    console.log(i)
                     var marker = new google.maps.Marker({
                         position: {
                             lat: parseInt(superHeroes[i].lat),
@@ -1706,11 +1707,7 @@
                     });
                 }
             }
-
         }
-
-
     </script>
 </body>
-
 </html>
