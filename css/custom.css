@@ -71,18 +71,18 @@ nav ul li a:hover{
 	background-color: #fff;
 	font-weight: 700;
 }
-/*banderas del haeader*/
+/*banderas del header*/
 .flag{
   margin: auto;
   max-width: 100%;
-  
   display: flex;
   justify-content:space-evenly ;
-    position: relative;
-    
-  bottom: 50%;
-  
-  
+  bottom: 30%;
+  text-align: center;
+}
+
+.flag a {
+  color: black;
 }
 
 /*banderas del haeader*/
@@ -90,11 +90,8 @@ nav ul li a:hover{
   float: right;
   position: relative;
   right: 20px;
-  bottom: 85px;
-  
+  bottom: 25px;
   text-align: right;
-  
-  
   margin: auto;
 }
 .container {
@@ -118,7 +115,7 @@ nav ul li a:hover{
 }
 
 .title {
-  text-align: left;
+  text-align: center;
   font-size: 30px;
   font-weight: 900;
   padding-bottom: 5px;
@@ -144,12 +141,11 @@ nav ul li a:hover{
 }
 .hidden{
   padding-bottom: 5px;
-  text-align: left;
- 
+  text-align: center;
+  margin: 0;
+  line-height: normal;
+  margin-top: 20px;
 }
-
-
-
 
 #boxcontent {
   background-color: #4f5b6140;
@@ -190,10 +186,7 @@ nav ul li a:hover{
 .main-content {
   float: left;
   padding-top: 150px;
-  
   width: 68%;
-  
-  
   height: 700px;
 }
 
@@ -212,6 +205,11 @@ nav ul li a:hover{
 }
 
 @media screen and (max-width: 768px) {
+
+  nav {
+    width: 100%;
+    text-align: left;
+  }
  
   .container .slides img{
     width: 100%;
@@ -222,10 +220,11 @@ nav ul li a:hover{
     padding-left: 0;
     padding-top: 20px;
     padding-bottom: 20px;
+    flex-wrap: wrap;
   }
 
   .three_columns .img-item {
-    width: 100%;
+    width: 49%;
     text-align: center;
   }
 
@@ -246,11 +245,8 @@ nav ul li a:hover{
   }
 
   .main-content {
-    
-    
     width: 90%;
     float: left;
-    
     overflow-y: unset !important;
     height: auto;
     overflow: auto;
@@ -262,6 +258,21 @@ nav ul li a:hover{
     width: 100%;
   }
 
+  .flag {
+    flex-wrap: wrap;
+  }
+
+  #spacer {
+    bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+  .three_columns .img-item {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 
@@ -286,7 +297,7 @@ h2, h1 {
 }
 
 figcaption{
-  text-align: left;
+  text-align: center;
     padding: 5px;
 }
 
