@@ -204,7 +204,22 @@ nav ul li a:hover{
   clear: both;
 }
 
+#container form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width: 768px) {
+
+  header {
+    height: 40%;
+  }
+
+  header form {
+    display: grid;
+    width: 50%;
+    margin: auto;
+  }
 
   nav {
     width: 100%;
@@ -269,6 +284,16 @@ nav ul li a:hover{
 }
 
 @media screen and (max-width: 420px) {
+  header {
+    height: 40%;
+  }
+
+  header form {
+    display: grid;
+    width: 50%;
+    margin: auto;
+  }
+
   .three_columns .img-item {
     width: 100%;
     text-align: center;

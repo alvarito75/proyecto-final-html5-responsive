@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel="noopener" rel='stylesheet' type='text/css' />
+    <script src="js/modernizr.js"></script>
+    <script src="js/Respond-master/src/respond.js"></script>
+    <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="lightbox/src/js/lightbox.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/Slides-SlidesJS-3/source/jquery.slides.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <picture class="flag">
+
+            <a href="#ben">
+                <h3>Beni</h3>
+                <img src="images/banderas/flag beni.gif" rel="lightbox" title="Bandera de Beni" width="70"
+                    height="35"></a>
+            <a href="#cocha">
+                <h3>Cochabamba</h3>
+                <img src="images/banderas/flag cochabamba.gif" rel="lightbox" title="Bandera de Cochabamba" width="70"
+                    height="35"></a>
+            <a href="#chu">
+                <h3>Chuquisaca</h3>
+                <img src="images/banderas/flag chuquisaca.gif" rel="lightbox" title="Bandera de Chuquisaca" width="70"
+                    height="35"></a>
+            <a href="#lap">
+                <h3>La Paz</h3>
+                <img src="images/banderas/flag la paz.gif" rel="lightbox" title="Bandera de La Paz" width="70"
+                    height="35"></a>
+            <a href="#oru">
+                <h3>Oruro</h3>
+                <img src="images/banderas/flag oruro.gif" rel="lightbox" title="Bandera de Oruro" width="70"
+                    height="35"></a>
+            <a href="#pan">
+                <h3>Pando</h3>
+                <img src="images/banderas/flag pando.gif" rel="lightbox" title="Bandera de Pando" width="70"
+                    height="35"></a>
+            <a href="#pot">
+                <h3>Potosi</h3>
+                <img src="images/banderas/flag potosi.gif" rel="lightbox" title="Bandera de Potosi" width="70"
+                    height="35"></a>
+            <a href="#san">
+                <h3>Santa Cruz</h3>
+                <img src="images/banderas/flag santa cruz.gif" rel="lightbox" title="Bandera de Santa Cruz" width="70"
+                    height="35"></a>
+            <a href="#tar">
+                <h3>Tarija</h3>
+                <img src="images/banderas/flag tarija.gif" rel="lightbox" title="Bandera de Tarija" width="70"
+                    height="35"></a>
+        </picture>
+        <h2>Lugares Turisticos - Bolivia</h2>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+                <li><a href="index.html">Lugares al aire libre</a></li>
+                <li><a href="historia.html">Lugares historicos de Bolivia</a></li>
+                <li><a href="museos.html">Museos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <section id="spacer">
+            <h2>Buscador</h2>
+
+            <div class="search">
+                <form action="#">
+                    <input type="text" name="sitesearch" value="Enter a word..." />
+                    <input type="submit" name="start_search" class="button" value="Search" />
+                </form>
+                <p>Fecha y Hora:</p>
+                <p id="datetime"></p>
+            </div>
+        </section>
+    </header>
+    <!-- Main content-->
+    <div class="main-content">
+      <div id="container">
+        <h1>&barwed;; Formulario de registro &barwed;</h1>
+       
+       
+        <form action="#" method="post" id="contact_form">
+          <div class="name">
+            <label for="name">Nombre:</label>
+            <input type="text" placeholder="Nombre" name="name"  required>
+          </div>
+          <div class="email">
+            <label for="email">Correo:</label>
+            <input type="email" placeholder="Correo" name="email"  required>
+          </div>
+          <div class="telephone">
+            <label for="name">Telefono</label>
+            <input type="text" placeholder="Numero de celular" name="telephone"  required>
+          </div>
+          <div class="subject">
+            <label for="subject">Registro</label>
+            <select placeholder="Razon de registro" name="subject"  required>
+              <option disabled hidden selected>Razon de registro</option>
+              <option>Iniciar mi propio proyecto</option>
+              <option>Obtener mas informacion</option>
+              <option>Me gustaria observar a la competencia</option>
+            </select>
+          </div>
+          <div class="message">
+            <label for="message">Mensaje</label>
+            <textarea name="message" placeholder="Comentario..." id="message_input" cols="30" rows="5" required></textarea>
+          </div>
+          <div class="date">
+            <label>Fecha: <input type="date" name="Fecha" ></label>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Registrar">
+            
+          </div>
+        </form><!-- // End form -->
+      </div><!--
+    </div>
+
+    <!-- Sidebar right-->
+    <div class="sidebar-right">
+        <div id="map"> </div>
+    </div>
+
+    <!-- aqui termina las imagenes de lugares al aire libre-->
+    <footer class="footer">
+
+    </footer>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
